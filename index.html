@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6ce7634ce7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.jpg" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer Intern</p>
+        <h1>Hi, I'm <span> Roja Ramani</span><br> from Kurnool</h1>
+        <div class="social-icons">
+         
+          <a href="https://github.com/RojaRamaniTelugu"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/roja_ramani_9347/"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a
+            href="https://www.linkedin.com/in/rojaramani-telugu-a0b835239/"><i
+              class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- -------------about-------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="ramani1.jpeg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p> I am a Web Developer and I am dedicated and versatile professional seeking opportunities to leverage proficiency in programming languages such as Java and Python, with a strong foundation in data structures, testing, and problem-solving. Eager to contribute expertise in Android app development, along with skills in HTML and CSS, to collaborate within a dynamic team environment. Committed to continuous learning and growth, aiming to apply knowledge and enthusiasm to contribute to innovative projects and deliver high-quality solutions. Ready to utilize a combination of technical skills and teamwork to meet and exceed organizational goals.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experiene')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li><span>Back End</span><br>Core Java</li>
+              <li><span>Web Development</span><br>Designing web App developmet</li>
+              <li><span>Database</span><br>SQL</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experiene">
+            <h3>Experience</h3>
+            <ul>
+              <li><span>2023</span><br>Kodnest Technologies</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <h3>Education</h3>
+            <ul>
+              <li><span>2023</span><br>Bachelor of Technology</li>
+              <li><span>2019</span><br>Intermediate</li>
+              <li><span>2017</span><br>10th Class</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------------services--------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>
+          <p>I can create a unique and creative website for you using HTML, CSS, and JavaScript, tailored to fit your
+            brand and target audience. Additionally, I can utilize frameworks and libraries like Bootstrap, jQuery, or
+            React to build dynamic and interactive web designs.</p>
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>Back End</h2>
+          <p>Skilled in JDBC and core Java, with proficiency in database interaction and Java application development. Familiar with Python basics, offering versatility across programming languages. Experienced in web development, full-stack technologies, and Android app development. Eager to expand expertise in emerging technologies for impactful contributions in software development.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>I can help design and create a unique and creative app for you by using Android studio, utilizing my skills
+            in UI/UX design and app development. With expertise in building user-friendly and visually appealing
+            interfaces,
+            Let's work together to bring your app vision to life.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------port---------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="pg.jpg">
+          <div class="layer">
+            <h3>Online PG Booking</h3>
+            <p>Developed a sleek PG booking web app with HTML, CSS, and JavaScript, ensuring an engaging user interface and smooth navigation. Seamlessly integrating design and functionality for an efficient and responsive booking experience. </p>
+            <a href="https://github.com/RojaRamaniTelugu"><i
+                class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="musicwebapp.jpeg">
+          <div class="layer">
+            <h3>Music Web Application</h3>
+            <p>Created a music web application using HTML, CSS, and JavaScript, offering an immersive user experience. Seamlessly blending design elements and interactivity for a dynamic and engaging musical platform.</p>
+            <a href="https://github.com/RojaRamaniTelugu"><i
+                class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="cloud.jpg">
+          <div class="layer">
+            <h3>Cloud Computing</h3>
+            <p>Implemented innovative fog-based security for cloud storage, reducing data breaches by 50% and ensuring industry-standard compliance using Java, SQL, and Windows 10. Enhanced cloud data security, minimizing unauthorized access risks and breaches from January 2023 to May 2023.</p>
+            <a href="https://github.com/RojaRamaniTelugu?tab=repositories"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/RojaRamaniTelugu?tab=repositories" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- --------------------contact------------------ -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i>rojaramanitelugu@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>9347063095</p>
+          <div class="social-icons">
+            <a href="https://github.com/RojaRamaniTelugu3"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/roja_ramani_9347/"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a
+              href="https://www.linkedin.com/in/rojaramani-telugu-a0b835239/"><i
+                class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="finalresume roja (1).pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Thankyou for visiting my potfolio <i class="fa-solid fa-heart-pulse"></i>@Roja Ramani Telugu</p>
+    </div>
+  </div>
+
+  <!-- 
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classlist.remove("active-tab");
+        }
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    } -->
+  <!-- </script> -->
+  <script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemeu.style.right = "0";
+    }
+    function closemenu() {
+      sidemeu.style.right = "-200px";
+    }
+  </script>
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwOxYL20e_NKhIbMxP2ItBXVMflbFfMALuKEY4b0bus7VABFGJ112Ye4cI0H9xygdG-/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => {
+          msg.innerHTML = "An error occured while sending the message"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          console.error('Error!', error.message)
+        })
+    })
+  </script>
+</body>
+
+</html>
